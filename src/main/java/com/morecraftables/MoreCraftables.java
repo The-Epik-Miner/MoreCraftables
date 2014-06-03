@@ -21,7 +21,7 @@ public class MoreCraftables {
 	@Instance(value = "morecraftables")
 	public static MoreCraftables instance;
 
-	@SidedProxy(clientSide = "theepikminer.morecraftables.client.ClientProxy", serverSide = "theepikminer.morecraftables.proxy.CommonProxy")
+	@SidedProxy(clientSide = "com.morecraftables.client.ClientProxy", serverSide = "com.morecraftables.CommonProxy")
 	public static CommonProxy proxy;
 
 	@EventHandler

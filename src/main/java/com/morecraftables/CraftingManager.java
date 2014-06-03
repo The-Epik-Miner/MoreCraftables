@@ -9,6 +9,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class CraftingManager {
 	
+	/**
+	 * Initialise all crafting recipes. 
+	 */
+	
 	public static void init() {
 
 		GameRegistry.addShapedRecipe(new ItemStack(Blocks.coal_ore), "SSS",
