@@ -1,4 +1,4 @@
-package theepikminer.morecraftables;
+package com.morecraftables;
 
 public class CommonProxy {
 

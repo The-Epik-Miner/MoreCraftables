@@ -1,4 +1,4 @@
-package theepikminer.morecraftables;
+package com.morecraftables;
 
 public class Strings {
 	public static final String MODID = "morecraftables";
