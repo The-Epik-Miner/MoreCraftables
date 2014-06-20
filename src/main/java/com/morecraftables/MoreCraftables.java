@@ -17,6 +17,8 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = "morecraftables", name = "MoreCraftables", version = "0.0.0")
 public class MoreCraftables {
+	
+	 
 
 	@Instance(value = "morecraftables")
 	public static MoreCraftables instance;
@@ -26,12 +28,13 @@ public class MoreCraftables {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		CraftingManager.init();
+		
 	}
 
 	@EventHandler
 	public void load(FMLInitializationEvent event) {
 		proxy.registerRenderers();
+		CraftingManager.init();
 	}
 
 	@EventHandler

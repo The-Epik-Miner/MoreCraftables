@@ -3,14 +3,12 @@ package com.morecraftables;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class CraftingManager {
 	
 	/**
-	 * Initialise all crafting recipes. 
+	 * Initialises all crafting recipes. 
 	 */
 	
 	public static void init() {
@@ -28,6 +26,7 @@ public class CraftingManager {
 		GameRegistry.addShapedRecipe(new ItemStack(Blocks.mycelium, 3), "BRB",
 				"RBR", "DDD", 'D', Blocks.dirt, 'B', Blocks.brown_mushroom,
 				'R', Blocks.red_mushroom);
+		
 	}
 	
 
